@@ -57,7 +57,7 @@ public class EnviarCorreos {
 				// Creando transportador de emails usando protocolo SMTP. 
 				Transport t = sesion.getTransport("smtp");
 				// Conectando al servidor de correo con autentificación. 
-				t.connect("dmacel1ca2@gmail.com", "hwvwikgxytoljsaq");
+				t.connect("dmacel1ca2@gmail.com", "************");
 				System.out.println("Hemos conectado con el servidor de GMAIL");
 				int opcion2 = 0;
 				//Permite enviar mas de un mensaje
